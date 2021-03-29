@@ -1,8 +1,110 @@
-/*
-Colors:
+*{
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+box-sizing: border-box
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.head-div{
+  display: flex;
+  background-color: whitesmoke;
+  height: 50px;
+  width: 100%;
+  display: inline;
+}
 
-*/
+.
+
+.nav-header{
+
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  float: right;
+
+}
+.landing1{
+  background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+  height: 600px;
+}
+
+.body {
+  font-family: 'Proxima-nova' , sans-serif;
+  display: flex;
+}
+
+.Spotify-logo{
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 1rem;
+}
+
+.head-div{
+  display: inline;
+  background-color: whitesmoke;
+  width: 100vw;
+
+  height: 40px;
+}
+.landing1 h1{
+  color: white;
+  font-style: ;
+  width: 100vw;
+}
+.h1-section1{
+  font-family: 'Proxima-nova' , sans-serif;
+position: relative;
+top: -350px;
+left: 22%;
+font-size: 40px;
+}
+.p-h1-section1{
+
+  font-family: 'Proxima-nova' , sans-serif;
+position: relative;
+top: -350px;
+left: 22%;
+font-size: 20px;
+color: white;
+width: 400px;
+text-align: center;
+}
+
+.h2-section2{
+  font-family: 'Proxima-nova' , sans-serif;
+position: relative;
+left: 22%;
+font-size: 40px;
+}
+
+.section2{
+background-color: white;
+  width: 100%;
+  font-family: 'Proxima-nova' , sans-serif;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.section2Right{
+
+  width: 100px;
+}
+.section2Center{
+  margin: 0 auto;
+  width: 100px;
+}
+.section2left{
+
+  width: 100px;
+}
+
+.section3{
+  width: 100%;
+  font-family: 'Proxima-nova' , sans-serif;
+  background-color: green;
+  color: white;
+  display: inline-flex;
+  justify-content: space-between;
+}
