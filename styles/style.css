@@ -1,110 +1,139 @@
-*{
-margin: 0px;
-padding: 0px;
-list-style-type: none;
-box-sizing: border-box
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: 'Proxima-nova', sans-serif;
 }
 
-.head-div{
+.header {
+  width: 100px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+.head-div {
   display: flex;
   background-color: whitesmoke;
   height: 50px;
   width: 100%;
-  display: inline;
+  justify-content: space-between;
 }
 
-.
-
-.nav-header{
-
+.nav-header li {
   list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
+  margin: 10px 10px;
   float: right;
-
 }
-.landing1{
+.landing1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
   background-image: url(/lab-css-spotify-clone/images/landing.jpg);
   height: 600px;
+  width: 100%;
 }
 
 .body {
-  font-family: 'Proxima-nova' , sans-serif;
+  font-family: 'Proxima-nova', sans-serif;
   display: flex;
 }
 
-.Spotify-logo{
+.Spotify-logo {
   height: 40px;
   display: flex;
   justify-content: flex-start;
   margin-right: 1rem;
 }
 
-.head-div{
-  display: inline;
+.head-div {
+  display: flex;
   background-color: whitesmoke;
   width: 100vw;
-
   height: 40px;
 }
-.landing1 h1{
+.landing1 h1 {
   color: white;
-  font-style: ;
+  display: flex;
+  justify-content: center;
   width: 100vw;
 }
-.h1-section1{
-  font-family: 'Proxima-nova' , sans-serif;
-position: relative;
-top: -350px;
-left: 22%;
-font-size: 40px;
-}
-.p-h1-section1{
-
-  font-family: 'Proxima-nova' , sans-serif;
-position: relative;
-top: -350px;
-left: 22%;
-font-size: 20px;
-color: white;
-width: 400px;
-text-align: center;
+.landing1 p {
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
 }
 
-.h2-section2{
-  font-family: 'Proxima-nova' , sans-serif;
-position: relative;
-left: 22%;
-font-size: 40px;
-}
-
-.section2{
-background-color: white;
+.section2 {
+  background-color: white;
   width: 100%;
-  font-family: 'Proxima-nova' , sans-serif;
-  display: inline-flex;
+  height: 300px;
+  font-family: 'Proxima-nova', sans-serif;
+}
+.h2-section2 {
+  font-family: 'Proxima-nova', sans-serif;
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  text-decoration-line: underline;
+}
+.section2Body {
+  display: flex;
   justify-content: space-between;
 }
-.section2Right{
 
+.section2left {
   width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.section2Center{
+.section2left h3 {
+  color: #00b172;
+}
+.section2Right {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section2Right h3 {
+  color: #00b172;
+}
+.section2Center {
   margin: 0 auto;
   width: 100px;
-}
-.section2left{
-
-  width: 100px;
-}
-
-.section3{
-  width: 100%;
-  font-family: 'Proxima-nova' , sans-serif;
-  background-color: green;
-  color: white;
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+}
+.section2Center h3 {
+  color: #00b172;
+}
+
+.section3 {
+  width: 100%;
+  font-family: 'Proxima-nova', sans-serif;
+  background-color: #00b172;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.section3title{
+  text-decoration-line: underline;
+}
+.section3left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.spotify-icon{
+  justify-content: center;
 }
